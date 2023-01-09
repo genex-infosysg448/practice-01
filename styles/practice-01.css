@@ -5,3 +5,11 @@
     max-width: 100%;
     max-height: auto;
 }
+
+.header-container {
+    width: 1000px;
+    height: 600px;
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+
+}
