@@ -17,6 +17,7 @@
 .header-container {
     padding: 200px 200px 0 600px;
 }
+
 .header-title {
     font-size: 60px;
     font-weight: 600px;
@@ -30,12 +31,13 @@
 
 .btn-primary {
     background-color: rgb(53, 53, 189);
-    color:wheat;
+    color: wheat;
     height: 34px;
-    padding:5px;
+    padding: 5px;
     border-radius: 5px;
     border: none;
 }
+
 .btn-primary:hover {
     color: rgb(212, 209, 214);
     background-color: purple;
@@ -89,4 +91,29 @@
     font-weight: 600px;
     padding-bottom: 54px;
     text-align: center;
+}
+
+.linear {
+    margin: 131px 0;
+    margin-left: 230px;
+}
+
+.linear-image {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    border-radius: 8px;
+}
+
+.linear-gradient {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+    opacity: 0.9;
+    display: flex;
+    position: absolute;
+    width: 900px;
+    height: 200px;
 }
